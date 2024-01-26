@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-[#171717] text-white;
+  }
+}
+.ͼ3 .cm-gutters { 
+  background-color: #171717;
+  color: #71717a;
+
+}
+
+.py-3  { 
+  padding-bottom: 0;
+}
+
+.ͼ4 .cm-content { 
+  padding-left: 10px;
+} 
+
+.ͼ1.cm-focused {
+  outline: 0
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+  height: 8px;
+}
+
+.scroll-active ::-webkit-scrollbar {
+  width: 5px;
+  display: block;
+}
+
+
+::-webkit-scrollbar-thumb {
+  background: #27272a;
+  border-radius: 10px;
+}
+
+
+
+
+.dragbar {
+  -webkit-app-region: drag;
+}
